@@ -44,6 +44,7 @@ int main() {
 	cout << "1. dValue: " << dValue << endl;
   manipulate(dValue);   ///CALL BY VALUE    actual argument
 	cout << "5. dValue: " << dValue << endl;
-
+ 
+	getch();
 	return 0;
 }
