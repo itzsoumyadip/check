@@ -6,11 +6,14 @@ void manipulate(double &pValue) // pass by refernce
 {
 	cout << "2. Value of double in manipulate: " << &pValue << endl;
   
-	double b =10.02;
+	//double b =10.02;    //   watch out  this line   as and extra assign   itz effect at line with 3(///) pValue =b;  
 
      cout << "3. Value of double in manipulate: " << pValue << endl;
    		 
-    pValue =b;
+ ///   pValue =b;      <----- 3(///)
+	
+		pValue =10.02;   // new value of pValue and of dValue
+	
     cout << "4. Value of double in manipulate: " << pValue << endl;
     
 }
