@@ -26,7 +26,7 @@ int main() {
  
    int **ppValue = &pnValue; 
      
-	 
+	    int &value =nValue;   // A reference variable is declare and assigned with Addreas(or give a new name (Aliase)) of nValue variable;
 
 
 	cout << "Int value: " << nValue << endl;
@@ -40,6 +40,13 @@ int main() {
     cout << "Int value via pointer of  pointer: " << **ppValue << endl;
 	
 	cout << "Int value: " << nValue << endl;
+	
+	
+	
+	 value =29;    // A NEW  value is assigned in reference variable 
+	cout << "Int value: " << nValue << endl;
+		
+	
 	cout << "==================" << endl;
 	
 
