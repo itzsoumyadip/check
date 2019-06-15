@@ -124,3 +124,25 @@ int main() {
 
 	return 0;
 }
+
+
+
+
+seee more at https://stackoverflow.com/questions/4955198/what-does-dereferencing-a-pointer-mean
+/*===============================================  *Pointer  update ===========================================================*/
+
+*pointer (derefference pointer)
+
+ pointer points a string 
+then star(*) and pointer name will actually give us and the actual value
+
+eg  
+string text[]={"one, two , three"};
+string  *pValue = text;
+       
+    
+  cout<<*pValue
+  
+  here pointer points a string  
+  then star(*) and pointer name(pValue) will actually give us and the actual value
+
