@@ -129,6 +129,9 @@ int main() {
 
 
 seee more at https://stackoverflow.com/questions/4955198/what-does-dereferencing-a-pointer-mean
+https://en.wikipedia.org/wiki/Dereference_operator
+
+
 /*===============================================  *Pointer  update ===========================================================*/
 
 *pointer (derefference pointer)
