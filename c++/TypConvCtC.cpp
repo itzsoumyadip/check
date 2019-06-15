@@ -1,5 +1,5 @@
 #include<bits/stdc++.h>
-#include<iostream>
+#include<conio.h>
 using namespace std;
 class Item
 {
@@ -74,7 +74,7 @@ public:
           
           return Item(a,b);
      }
-
+    
 };
 
 
@@ -96,5 +96,6 @@ int main(){
      i1=p1;
 //     i1.changeData();
     i1.showData();
+    getch();
 }
 
